@@ -684,8 +684,6 @@ header {
 @media screen and (max-width: 319px) {
     .container, .mobile-menu-container {
         width: 320px;
-        /* margin-right: auto;
-        margin-left: auto; */
     }
 }
 
@@ -1160,12 +1158,8 @@ header {
         margin-bottom: 64px;
     }
     .portfolio-list {
-        margin-top: -72px;
-        margin-left: -24px;
-    }
-    .portfolio-item {
-        margin-top: 72px;
-        margin-left: 24px;
+        row-gap: 72px;
+        column-gap: 24px;
     }
     .potfolio-img {
         width: 356px;
@@ -1348,11 +1342,7 @@ header {
         margin-bottom: 72px;
     }
     .portfolio-list {
-        margin-top: -48px;
-        margin-left: -24px;
-    }
-    .portfolio-item {
-        margin-top: 48px;
-        margin-left: 24px;
+        row-gap: 48px;
+        column-gap: 24px;
     }
 }
