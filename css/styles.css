@@ -777,6 +777,7 @@ header {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
+        overflow: auto;
     }
     .mobile-menu-container {
         position: relative;
@@ -1338,7 +1339,7 @@ header {
     .footer-social {
         margin-right: 80px;
     }
-    
+
     /* Portfolio */
     .portfolio-section {
         padding-top: 96px;
