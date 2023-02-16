@@ -30,6 +30,7 @@ ul {
 img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 body {
 
@@ -430,6 +431,9 @@ header {
     text-align: center;
 }
 .hero-section {
+    max-width: 428px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     margin: 0 auto;
     background-color: var(--color-secondary--);
 
@@ -438,11 +442,6 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-.hero-section {
-    max-width: 428px;
-    padding-top: 112px;
-    padding-bottom: 112px;
 }
 @media screen and (min-width: 768px) {
     .hero-section {
