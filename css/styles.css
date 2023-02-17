@@ -79,17 +79,17 @@ body {
     }
 @media screen and (min-width: 480px) {
 .container, .mobile-menu-container {
-        width: 428px;
+        max-width: 428px;
     }
 }
 @media screen and (min-width: 768px) {
     .container {
-        width: 768px;
+        max-width: 768px;
     }
 }
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1158px;
+        max-width: 1158px;
         padding-right: 15px;
         padding-left: 15px;
     }
