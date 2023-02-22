@@ -876,7 +876,7 @@ header {
 }
 @media screen and (max-width: 1199px) {
     .footer-content {
-        padding-bottom: 72px;
+        margin-bottom: 72px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -903,7 +903,7 @@ header {
 }
 @media screen and (max-width: 1199px) {
     .footer-social {
-        padding-bottom: 72px;
+        margin-bottom: 72px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -970,9 +970,15 @@ header {
     color: var(--color-white--);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 427px) {
     .subscribe-form-input {
         width: 100%;
+        margin-bottom: 16px;
+    }
+}
+@media screen and (min-width: 428px) and (max-width: 767px) {
+    .subscribe-form-input {
+        width: 396px;
         margin-bottom: 16px;
     }
 }
